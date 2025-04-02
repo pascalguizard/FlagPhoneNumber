@@ -38,7 +38,7 @@ let package = Package(
             publicHeadersPath: "."
         ),
         .target(
-            name: "FlagPhoneNumber"
+            name: "FlagPhoneNumber",
             resources: [
                 .process("countryCodes.json")
             ]
