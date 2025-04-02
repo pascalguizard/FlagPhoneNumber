@@ -37,5 +37,11 @@ let package = Package(
             exclude: ["Info.plist", "libPhoneNumber"],
             publicHeadersPath: "."
         ),
+        .target(
+            name: "FlagPhoneNumber"
+            resources: [
+                .process("countryCodes.json")
+            ]
+        )
     ]
 )
