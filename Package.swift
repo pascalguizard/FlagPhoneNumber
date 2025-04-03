@@ -39,9 +39,7 @@ let package = Package(
         ),
         .target(
             name: "FlagPhoneNumber",
-            resources: [
-                .process("countryCodes.json")
-            ]
+            resources: [.process("countryCodes.json")]
         )
     ]
 )
